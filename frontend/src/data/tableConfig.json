@@ -1,0 +1,57 @@
+{
+  "player": [
+    { "label": "View", "key": "view", "type": "view" },
+
+    { "label": "Name", "key": "name", "section": "Basic" },
+    { "label": "Jersey", "key": "jerseyNo", "section": "Basic" },
+    { "label": "Age", "key": "age", "section": "Basic" },
+    { "label": "Country", "key": "country", "section": "Basic" },
+    { "label": "Role", "key": "role", "section": "Basic" },
+    { "label": "Gender", "key": "gender", "section": "Basic" },
+
+    { "label": "Matches", "key": "matchesPlayed", "section": "Basic" },
+    { "label": "Innings", "key": "innings", "section": "Basic" },
+
+    { "label": "Runs", "key": "runs", "section": "Batting", "highlight": true },
+    { "label": "Avg", "key": "battingAverage", "section": "Batting" },
+    { "label": "SR", "key": "strikeRate", "section": "Batting" },
+    { "label": "HS", "key": "highestScore", "section": "Batting" },
+    { "label": "50s", "key": "fifties", "section": "Batting" },
+    { "label": "100s", "key": "centuries", "section": "Batting" },
+    { "label": "4s", "key": "fours", "section": "Batting" },
+    { "label": "6s", "key": "sixes", "section": "Batting" },
+    { "label": "Ducks", "key": "ducks", "section": "Batting" },
+
+    { "label": "Wickets", "key": "wickets", "section": "Bowling", "highlight": true },
+    { "label": "Economy", "key": "economy", "section": "Bowling" },
+    { "label": "Bowl Avg", "key": "bowlingAverage", "section": "Bowling" },
+    { "label": "5W", "key": "fiveWicketHauls", "section": "Bowling" },
+    { "label": "Balls", "key": "ballsBowled", "section": "Bowling" },
+    { "label": "Maidens", "key": "maidenOvers", "section": "Bowling" },
+
+    { "label": "Catches", "key": "catches", "section": "Fielding" },
+    { "label": "Stumpings", "key": "stumping", "section": "Fielding" },
+
+    { "label": "MOM", "key": "manOfTheMatch", "section": "Awards" },
+    { "label": "MOT", "key": "manOfTheTournament", "section": "Awards" },
+
+    { "label": "PI", "key": "performanceIndex", "section": "Awards", "highlight": true }
+  ],
+
+  "coach": [
+    { "label": "View", "key": "view", "type": "view" },
+    { "label": "Name", "key": "name", "section": "Basic" },
+    { "label": "Age", "key": "age", "section": "Basic" },
+    { "label": "Country", "key": "country", "section": "Basic" },
+    { "label": "Role", "key": "role", "section": "Basic" },
+    { "label": "Gender", "key": "gender", "section": "Basic" }
+  ],
+
+  "umpire": [
+    { "label": "Name", "key": "name", "section": "Basic" },
+    { "label": "Age", "key": "age", "section": "Basic" },
+    { "label": "Country", "key": "country", "section": "Basic" },
+    { "label": "Matches", "key": "matches", "section": "Basic" },
+    { "label": "Level", "key": "level", "section": "Basic" }
+  ]
+}
